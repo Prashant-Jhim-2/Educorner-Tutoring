@@ -747,7 +747,7 @@ const page = () => {
                     <FaMapMarkerAlt className="text-white" />
                   </div>
                   <h4 className="font-semibold text-gray-800 mb-1">Location</h4>
-                  <p className="text-gray-600">Toronto, Ontario, Canada</p>
+                  <p className="text-gray-600">Hamilton, Ontario, Canada</p>
                 </div>
               </div>
             </div>
@@ -1216,7 +1216,7 @@ const page = () => {
             
             <div className="flex gap-6">
               <motion.a 
-                href="https://www.instagram.com/educorner" 
+                href="https://www.instagram.com/theeducornertutoring/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}
@@ -1227,7 +1227,7 @@ const page = () => {
               </motion.a>
               
               <motion.a 
-                href="https://maps.google.com/?q=Toronto,Ontario,Canada" 
+                href="https://www.google.com/maps/place/The+EduCorner+Tutoring/@56.5869048,-134.5131336,9267316m/data=!3m2!1e3!4b1!4m6!3m5!1s0x6235dff81ba04d11:0x226529aefa846620!8m2!3d62.6573279!4d-95.989235!16s%2Fg%2F11x5cxpbhx?authuser=0&entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}

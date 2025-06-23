@@ -1197,7 +1197,7 @@ const page = () => {
             <div className="flex items-center space-x-3 mb-6">
               <div>
                 <h3 className="text-2xl font-bold">The EduCorner</h3>
-                <p className="text-sm text-gray-400">Tutoring Excellence</p>
+                <p className="text-sm text-gray-400">Tutoring </p>
               </div>
             </div>
             

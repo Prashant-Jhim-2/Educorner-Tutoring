@@ -10,7 +10,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { FaPhone } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
@@ -526,7 +526,7 @@ const page = () => {
               viewport={{ once: true }}
               className="group relative"
             >
-              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+              <div className="absolute -top-12 left-1/2 transform -translate-x-1/2">
                 <span className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-6 py-2 rounded-full text-sm font-bold shadow-lg">
                   Most Popular
                 </span>
@@ -701,8 +701,9 @@ const page = () => {
                     onClick={scrollToTutor}
                     className="px-6 py-3 bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2 justify-center"
                   >
-                    <FaPhone size={16} />
+                   
                     Contact Chandan
+                    <FaPhoneAlt size={16} />
                   </motion.button>
                 </div>
               </div>
@@ -729,7 +730,7 @@ const page = () => {
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">
                   <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <FaPhone className="text-white" />
+                    <FaPhoneAlt className="text-white" />
                   </div>
                   <h4 className="font-semibold text-gray-800 mb-1">Call Us</h4>
                   <p className="text-gray-600">437-226-0838</p>
@@ -997,7 +998,7 @@ const page = () => {
                 onClick={() => handlePageChange('about')}
                 className="px-8 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-3 mx-auto"
               >
-                <FaPhone size={20} />
+                <FaPhoneAlt size={20} />
                 Contact Us
               </motion.button>
             </div>
@@ -1074,7 +1075,7 @@ const page = () => {
                   onClick={scrollToTutor}
                   className="px-6 py-3 bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2 justify-center"
                 >
-                  <FaPhone size={16} />
+                  <FaPhoneAlt size={16} />
                   Contact Chandan
                 </motion.button>
               </div>
@@ -1103,7 +1104,7 @@ const page = () => {
             className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 text-center"
           >
             <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-500 rounded-full flex items-center justify-center mx-auto mb-6">
-              <FaPhone className="text-white text-2xl" />
+              <FaPhoneAlt className="text-white text-2xl" />
             </div>
             <h3 className="text-xl font-bold text-gray-800 mb-4">Call Us</h3>
             <p className="text-gray-600 text-lg">437-226-0838</p>

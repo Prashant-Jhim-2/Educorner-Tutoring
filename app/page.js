@@ -1181,16 +1181,7 @@ const page = () => {
         {currentPage === 'about' && <AboutPage />}
       </main>
 
-      {/* Floating Action Button */}
-      <motion.button
-        initial={{ opacity: 0, scale: 0 }}
-        animate={{ opacity: 1, scale: 1 }}
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
-        className="fixed bottom-20 md:bottom-6 right-6 w-16 h-16 bg-gradient-to-r from-orange-500 to-red-500 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center text-white z-50"
-      >
-        <FaVideo size={24} />
-      </motion.button>
+     
 
       {/* Bottom Navigation - Mobile App Style */}
       <nav className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 z-40 md:hidden">

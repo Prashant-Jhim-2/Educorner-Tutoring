@@ -1,23 +1,30 @@
 {
-  "name": "The EduCorner Tutoring",
+  "name": "The EduCorner Tutoring - Expert Math, Science & IELTS Tutoring in Hamilton",
   "short_name": "EduCorner",
-  "description": "Professional tutoring services in Toronto. Expert math, science, and IELTS preparation with personalized learning plans.",
+  "description": "Expert tutoring in Mathematics, Science, and IELTS in Hamilton, Ontario. Personalized in-home and online tutoring with experienced tutor Chandan Mehta.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#f97316",
   "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-CA",
+  "categories": ["education", "productivity"],
   "icons": [
     {
-      "src": "/favicon.ico",
-      "sizes": "16x16 32x32",
-      "type": "image/x-icon"
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
     },
     {
-      "src": "/Header.jpg",
-      "sizes": "192x192",
-      "type": "image/jpeg",
-      "purpose": "any maskable"
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
     },
     {
       "src": "/Header.jpg",
@@ -26,7 +33,41 @@
       "purpose": "any maskable"
     }
   ],
-  "categories": ["education", "productivity"],
-  "lang": "en-CA",
-  "dir": "ltr"
+  "screenshots": [
+    {
+      "src": "/Header.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "The EduCorner Tutoring Homepage"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Get in touch with EduCorner Tutoring",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/favicon-32x32.png",
+          "sizes": "32x32"
+        }
+      ]
+    },
+    {
+      "name": "Our Courses",
+      "short_name": "Courses",
+      "description": "View our tutoring courses and subjects",
+      "url": "/courses",
+      "icons": [
+        {
+          "src": "/favicon-32x32.png",
+          "sizes": "32x32"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
 } 
